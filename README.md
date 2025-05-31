@@ -2,7 +2,21 @@
 
 **Self-host the powerful [Nari Labs Dia TTS model](https://github.com/nari-labs/dia) with this enhanced FastAPI server! Features an intuitive Web UI, flexible API endpoints (including OpenAI-compatible `/v1/audio/speech`), support for realistic dialogue (`[S1]`/`[S2]`), improved voice cloning, large text processing via intelligent chunking, and consistent, reproducible voices using 43 built-in ready-to-use voices and generation seeds feature.**
 
-Now with improved speed and reduced VRAM usage. Defaults to efficient BF16 SafeTensors for reduced VRAM and faster inference, with support for original `.pth` weights. Runs accelerated on NVIDIA GPUs (CUDA) with CPU fallback.
+## ✨ Announcing Our New Project: Chatterbox TTS Server!
+
+We're excited to introduce our latest development in the world of open-source text-to-speech: the **Chatterbox TTS Server**!
+
+Building on the experience and user-friendly design principles of the Dia-TTS-Server, this new project utilizes the powerful **`chatterbox-tts` engine by Resemble AI**. It offers a fresh take on high-quality speech synthesis with its own unique set of features.
+
+If you're looking for an alternative TTS solution or are interested in exploring the capabilities of the Chatterbox engine, we invite you to check it out:
+
+➡️ **Explore the Chatterbox TTS Server: [https://github.com/devnen/Chatterbox-TTS-Server](https://github.com/devnen/Chatterbox-TTS-Server)**
+
+We believe it's a great addition for anyone needing robust, self-hostable TTS capabilities.
+
+---
+
+The latest Dia-TTS-Server version now has improved speed and reduced VRAM usage. Defaults to efficient BF16 SafeTensors for reduced VRAM and faster inference, with support for original `.pth` weights. Runs accelerated on NVIDIA GPUs (CUDA) with CPU fallback.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 [![Python Version](https://img.shields.io/badge/Python-3.10+-blue.svg?style=for-the-badge)](https://www.python.org/downloads/)
