@@ -252,8 +252,6 @@ The first time you run the server (or after changing model settings in `config.y
 4.  **Access API Docs:** Open `http://localhost:PORT/docs`.
 5.  **Stop the server:** Press `CTRL+C` in the terminal.
 
-Okay, here is a revised Docker installation section for your `README.md`, incorporating the recent changes and decisions. It prioritizes using Docker Compose with the pre-built image from GitHub Container Registry (GHCR) as the recommended method.
-
 ---
 
 ## 🐳 Docker Installation
