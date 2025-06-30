@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "${PORT:-8003}:${PORT:-8003}"
+      - 8003
     volumes:
       # Mount local directories into the container for persistent data
       - ./model_cache:/app/model_cache
